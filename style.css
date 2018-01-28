@@ -1,0 +1,247 @@
+		:root {
+		--color-dark-grey : #39424e;
+		--color-light-grey: #8790a3;
+		--color-white: #e4e0e0;
+		--color-alt-grey: #626b7f;
+		--color-light-black: rgb(57, 66, 78);
+		}
+		.link{
+			margin-top: 30px;
+			padding-top: 30px;
+			font-size: 17px;
+			font-family: 'Open Sans', sans-serif;
+		}
+		.no-margin {
+			margin: 0;
+		}
+		h5{
+			color: var(--color-alt-grey);
+			font-weight: 600;
+		}
+		a>img{
+			    margin-left: 3px;
+		}
+		span{
+		width: 700px;
+    	font-size: 20px;
+    	line-height: 1.5;
+		}
+		#profile
+		{
+			border-bottom: none;
+			border-top: none;
+			margin: 0px;
+		}
+		.nav-bar {
+    	position: fixed;
+    	width: 250px;
+    	left: 0;
+    	height: 100%;
+    	margin-left: 0px;
+    	padding-left: 10px;
+    	z-index: 1;
+    	background-color: rgb(57, 66, 78);	
+    	}
+		#main-content{
+			width: calc(100vw - 300px);
+			position: relative;
+			left: 250px;
+			border-bottom: none;
+			border-top: none;
+			padding-left: 10px;
+			min-height: 100%;
+		}
+		#profile-pic
+		{
+			border-radius:50%; 
+			height: 150px;
+			width: 150px;
+			margin: 10px;
+			background-image: url("download.png");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		#profile-name
+		{
+			text-shadow: 2px 2px 8px #675f5f;
+			font-family: 'Berkshire Swash', cursive;
+			height: 50px;
+			width: 160px;
+			border-radius:10%; 
+			margin-left: 10px;
+			text-align: center;
+			line-height: 50px;
+			font-weight: 600;
+			font-size: 26px;
+			color: var(--color-white);
+		}
+		#menu{
+			height: 250px;
+			width: 180px;
+			border-radius: 10px;
+			margin: 0 10px 0 10px;
+			margin-top: 30px;
+		}
+		.menu-content{
+			color: #bbb7b1;
+			height: 25%;
+			text-align: center;
+			border-radius: 10px;
+			line-height: 60px;
+			font-weight: 500;
+			margin-top: 1px;
+			cursor: pointer;
+			font-family: 'Roboto', sans-serif;
+		}
+		.menu-content:hover{
+			color: #fff;
+			font-weight: 600;
+			/*background-color: #22A39F;*/
+			border-radius: 10px;
+		}
+		.active
+		{
+			font-weight: 600;
+			color: #fff;
+			/*background-color: #22A39F;*/
+		}
+		#content{
+			min-width: 300px;
+			min-height: 500px;
+			width: 90%;
+			margin: 10px;
+			margin-top: 30px;
+			line-height: 50px;
+			font-weight: 600;
+			font-size: 26px;
+		}
+		.contact-via{
+
+			display: flex;
+			justify-content: left;
+			margin-left: 10px;
+			margin-right: 10px;
+			height: 20%;
+			line-height: 60px;
+			font-weight: 500;
+			font-size: 26px;
+			padding:5px;
+		}
+		.contact-via > a > img{
+			padding-right: 10px;
+			margin-right: 10px;
+			width: 45px;
+		}
+		#contact-content{
+			padding-left: 60px;
+		}
+		.selected{
+			display: block;
+			min-height: 500px;
+			width: 90%;
+			/*margin: 10px;*/
+			line-height: 30px;
+			font-weight: 400;
+			font-size: 16px;
+			overflow: hidden;
+		}
+		.hidden
+		{
+			display: none;
+		}
+
+	.accordion {
+	border-radius: 6px;
+	margin-bottom: 5px;
+	font-family: 'Open Sans', sans-serif;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	}
+
+   .accordion:hover {
+    background-color: #ccc;
+    border-radius: 6px
+    border-bottom: 1px solid #444;
+	}
+
+	.panel {
+    padding: 0 0px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    background-color: white;
+    display: none;
+    margin-bottom: 0px;
+	}
+
+	#about-content,#resume-content,#projects-content,#contact-contnet{
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	}
+
+	h2{
+	font-size: 45px;
+    text-align: center;
+    font-weight: 300;
+    margin-left: 3px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+	}
+
+	h3{
+	text-align: left;
+	align-content: left;
+	font-weight: 300;
+    margin-left: 15px;
+    margin-bottom: 30px;
+	font-size: 30px;
+	color: var(--color-light-black);
+	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+	}
+	p{
+		text-align: left;
+	 	align-content: left;
+		font-weight: 500;
+		color: var(--color-dark-grey);
+		margin-left: 3px;
+		font-size: 20px;
+		margin: 0 0 0px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	h4{
+	 font-weight: 300;
+	 font-size: 18px;
+	 color: #22A39F;
+	 text-align: left;
+	 align-content: left;
+	 margin-left: 20px;
+	 font-family: 'Open Sans', sans-serif;
+	}
+
+	#about-content{
+    	width: 750px;
+		line-height: 30px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	.heading{
+		font-family: 'Open Sans', sans-serif; 
+	}
+
+	.inner-content{
+	margin-bottom: 25px;
+    line-height: 26px;
+    padding-left:17px;
+	font-family: 'Open Sans', sans-serif; 
+	color: var(--color-light-grey);
+	}
+
